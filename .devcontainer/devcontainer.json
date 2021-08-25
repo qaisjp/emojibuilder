@@ -20,7 +20,10 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"onCreateCommand": "git revert 324413de98b7994e8ff97f2ca2d25bdf9afbb1f3 --no-edit && yarn install",
+	"updateContentCommand": "git revert ca3b1916599a43fd1f0329e3a05e11641234c431 --no-edit || true",
+	"postCreateCommand": "yarn install",
+	"postAttachCommand": "yarn start",
+
 	// "postAttachCommand": "echo TEST",
 	
 
