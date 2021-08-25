@@ -8,7 +8,7 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "git revert ca3b1916599a43fd1f0329e3a05e11641234c431 --no-edit || true && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
