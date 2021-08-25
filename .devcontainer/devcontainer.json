@@ -22,7 +22,6 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"updateContentCommand": "git revert ca3b1916599a43fd1f0329e3a05e11641234c431 --no-edit || true",
 	"postCreateCommand": "yarn install",
-	"postAttachCommand": "yarn start && echo 'HEY YOU. CLICK HERE:  http://localhost:3000/  '",
 
 	// "postAttachCommand": "echo TEST",
 	
